@@ -127,8 +127,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Application Tech Header
-st.markdown('<div class="main-title">🔮 DocuMind AI Pro</div>', unsafe_allow_html=True)
-st.markdown('<div class="sub-title">Your intelligent document assistant. Upload a PDF and get answers from its contents.</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-title">🔮 DocuSense AI</div>', unsafe_allow_html=True)
+st.markdown('<div class="sub-title">Intelligent Document Search & Q&A</div>', unsafe_allow_html=True)
 
 # 🧠 Cache heavy neural architectures inside local thread memory pool
 @st.cache_resource
@@ -150,7 +150,7 @@ st.sidebar.markdown("---")
 st.sidebar.caption("🔒 Architecture Security: 100% Local Processing Network")
 
 # File input area
-st.markdown("### 📂 Ingest Document Workspace")
+st.markdown("### 📂 Document Intelligence Workspace")
 uploaded_file = st.file_uploader("", type=["pdf"], label_visibility="collapsed")
 
 if uploaded_file is not None:
